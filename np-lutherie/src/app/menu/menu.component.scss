@@ -2,7 +2,8 @@
 
 #desktop-menu {
   display: flex;
-  position: relative;
+  width: 100%;
+  position: fixed;
   background-color: #323131;
   a,
   a:visited {
