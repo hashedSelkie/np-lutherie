@@ -1,0 +1,44 @@
+@import "../../styles.scss";
+
+#desktop-menu {
+  display: flex;
+  position: relative;
+  background-color: #323131;
+  a,
+  a:visited {
+    text-decoration: none;
+    color: white;
+  }
+  .logo {
+    display: flex;
+    #logo-img {
+      width: 50px;
+      padding: 10px;
+    }
+    #logo-text {
+      padding: 10px;
+      p {
+        margin: -5px;
+        font-family: "Beth Ellen";
+      }
+    }
+  }
+  ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    li {
+      padding: 25px;
+      font-family: "Calibri";
+    }
+    #instagram {
+      max-width: 30px;
+      height: auto;
+    }
+  }
+}
