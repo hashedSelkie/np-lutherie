@@ -1,0 +1,42 @@
+.about {
+  background-color: #323131;
+  color: white;
+  #hero {
+    width: 100%;
+    max-width: 100vw;
+    height: auto;
+  }
+  h1 {
+    font-family: "Beth Ellen";
+    font-weight: lighter;
+    text-align: center;
+    font-size: 3.5em;
+  }
+  .the-luthier {
+    display: flex;
+    justify-content: center;
+    padding: 0 0 100px 0;
+    .text {
+      width: 35vw;
+      max-width: 500px;
+      font-size: 1.4em;
+      font-family: "Calibri";
+      font-weight: lighter;
+      padding: 10px 60px;
+    }
+    #theLuthier {
+      height: 100%;
+      max-height: 650px;
+      width: auto;
+      padding: 50px;
+    }
+  }
+  #theluthiersitting {
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    display: block;
+    margin: auto;
+    padding: 0 0 200px 0;
+  }
+}
