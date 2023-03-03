@@ -1,0 +1,30 @@
+.services {
+  background-color: #323131;
+  color: white;
+  #hero {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    object-position: 100% 5%;
+  }
+  h1 {
+    font-family: "Beth Ellen";
+    font-weight: lighter;
+    text-align: center;
+    font-size: 3.5em;
+  }
+  .information {
+    font-family: "Calibri";
+    font-weight: lighter;
+    font-size: 1.5em;
+    max-width: 750px;
+    display: block;
+    margin: auto;
+    padding: 0 0 30px;
+  }
+  .separator {
+    width: 100%;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.24);
+  }
+}
