@@ -9,6 +9,7 @@
     object-fit: cover;
     object-position: 50% 50%;
     border-bottom: 1px black solid;
+    background-color: black;
   }
   h1 {
     font-family: "Beth Ellen";
@@ -46,19 +47,19 @@
         margin: auto;
         justify-content: center;
         .text {
-          width: auto;
+          width: 350px;
           font-size: 1.5em;
           font-weight: lighter;
-          padding: 0 20px 0 0;
+
           p {
-            margin: 0 0 40px 0;
+            margin: 0 20px 20px;
           }
         }
         img {
           height: 100%;
           max-height: 300px;
           width: auto;
-          padding: 0 0 0 50px;
+          box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.404);
         }
       }
       .table-wrapper {
