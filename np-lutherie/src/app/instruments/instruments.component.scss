@@ -8,7 +8,7 @@
     object-fit: cover;
     object-position: 100% 1%;
     border-bottom: 1px black solid;
-    background-color: black;
+    background-color: rgb(66, 66, 66);
   }
   h1 {
     font-family: "Beth Ellen";
@@ -57,7 +57,7 @@
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
-  padding-top: 5vmin; /* Location of the box */
+  padding-top: 7vmin; /* Location of the box */
   left: 0;
   top: 0;
   right: 0;
