@@ -16,6 +16,7 @@
     text-align: center;
     font-size: 3.5em;
   }
+
   .information {
     font-family: "Calibri";
     font-weight: lighter;
@@ -34,18 +35,20 @@
     display: flex;
     font-family: "Calibri";
     margin: auto;
+    justify-content: center;
+    padding: 50px;
     .sale {
       font-weight: bold;
     }
     .gallery {
       display: grid;
-      grid-template-columns: auto auto;
+      grid-template-columns: auto auto auto;
       gap: 10px;
+      padding-right: 70px;
       img {
         height: auto;
-        width: 80px;
+        width: 120px;
         object-fit: cover;
-        margin: 10px;
       }
     }
   }
