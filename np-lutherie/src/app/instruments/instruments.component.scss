@@ -30,12 +30,20 @@
     height: 30px;
     background-color: rgba(0, 0, 0, 0.24);
   }
-  .gallery {
-    img {
-      height: auto;
-      width: 80px;
-      object-fit: cover;
-      margin: 10px;
+  .instrument-object {
+    display: flex;
+    font-family: "Calibri";
+    margin: auto;
+    .sale {
+      font-weight: bold;
+    }
+    .gallery {
+      img {
+        height: auto;
+        width: 80px;
+        object-fit: cover;
+        margin: 10px;
+      }
     }
   }
 }
