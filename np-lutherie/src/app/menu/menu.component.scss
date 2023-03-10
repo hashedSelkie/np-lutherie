@@ -39,6 +39,15 @@
     li {
       padding: 25px;
       font-family: "Calibri";
+      .on-page {
+        text-decoration-line: overline;
+        text-decoration-color: rgba(255, 255, 255, 0.486);
+      }
+    }
+    li:hover {
+      text-decoration-line: underline;
+      text-underline-offset: 7px;
+      text-decoration-color: rgba(255, 255, 255, 0.486);
     }
     #instagram {
       max-width: 30px;
