@@ -1,0 +1,28 @@
+.wrapper {
+  background-color: #323131;
+  color: white;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  .contact {
+    width: 50%;
+    margin: 10%;
+    h1 {
+      font-family: "Beth Ellen";
+      font-weight: lighter;
+      text-align: right;
+      font-size: 4em;
+    }
+  }
+  .footer-cello {
+    width: 40%;
+    height: auto;
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      object-position: 5% 100%;
+    }
+  }
+}

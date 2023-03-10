@@ -13,6 +13,7 @@ import { ServicesComponent } from './services/services.component';
 import { ContactComponent } from './contact/contact.component';
 import { MenuComponent } from './menu/menu.component';
 import { FooterComponent } from './footer/footer.component';
+import { ThankYouComponent } from './thank-you/thank-you.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { FooterComponent } from './footer/footer.component';
     ServicesComponent,
     ContactComponent,
     MenuComponent,
-    FooterComponent
+    FooterComponent,
+    ThankYouComponent
   ],
   imports: [
     BrowserModule,
@@ -34,6 +36,7 @@ import { FooterComponent } from './footer/footer.component';
       {path: 'instruments', component: InstrumentsComponent, data: { state: 'instruments' }},
       {path: 'services', component: ServicesComponent, data: { state: 'services' }},
       {path: 'contact', component: ContactComponent, data: { state: 'contact' }},
+      {path: 'thank-you', component: ThankYouComponent, data: { state: 'thank-you' }},
       {path: '**', redirectTo: '/home', pathMatch: 'full'},
   
     ]),
