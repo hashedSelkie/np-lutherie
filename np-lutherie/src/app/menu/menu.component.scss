@@ -39,12 +39,13 @@
     li {
       margin: 25px;
       font-family: "Calibri";
+      height: 20px;
       .on-page {
         text-decoration-line: overline;
         text-decoration-color: rgba(255, 255, 255, 0.486);
       }
     }
-    a:hover {
+    li:hover {
       text-decoration-line: underline;
       text-underline-offset: 7px;
       text-decoration-color: rgba(255, 255, 255, 0.486);
