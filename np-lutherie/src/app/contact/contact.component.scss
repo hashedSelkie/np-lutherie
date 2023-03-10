@@ -5,22 +5,20 @@
   padding: 0;
   margin: 0;
   justify-content: right;
-  height: 100vh;
+  min-height: 100vh;
   .contact {
-    padding: 100px 20px;
     width: 60%;
     h1 {
       font-family: "Beth Ellen";
       font-weight: lighter;
       text-align: center;
       font-size: 3em;
-      margin: 0 0 0 40%;
+      margin: 10% 0 0 40%;
     }
     .content {
       display: flex;
       font-family: "Calibri";
       padding: 30px;
-
       justify-content: right;
       .form {
         width: 50%;
@@ -69,12 +67,11 @@
   }
   .footer-cello {
     width: 40%;
-    height: auto;
     img {
       height: 100%;
       width: 100%;
       object-fit: cover;
-      object-position: 5% 100%;
+      object-position: 10% 20%;
     }
   }
 }
