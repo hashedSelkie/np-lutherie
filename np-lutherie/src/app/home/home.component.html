@@ -42,7 +42,7 @@
       alt="tools hanging on workshop shelf"
     />
   </div>
-  <div class="testimonials">
+  <div class="testimonials-wrapper">
     <img
       loading="lazy"
       src="../../assets/shavingsDivider.png"
@@ -50,6 +50,123 @@
     />
     <div class="text">
       <h2>Testimonials</h2>
+      <div class="separator"></div>
+      <div class="testimonial">
+        <p>
+          "I have a Violin that was made by my Great Grandfather and decided it
+          was time for the Violin to have some repair and setup works completed.
+          I had been searching for a while for someone who was professional,
+          passionate and sympathetic, both to the age of the Violin and its
+          story. After all, my Violin is far from valuable in terms of monetary
+          value however its value in terms of sentimental value is extremely
+          high for me. After having spoken to other luthiers, none of whom
+          really got my passion for the Violin, or I felt they priced themselves
+          out of the job. I was told about a young woman who had not long
+          started out in a workshop in Glasgow and decided to get in contact
+          with her.
+        </p>
+        <p>
+          Right from the get-go, Nina was clearly very passionate about her work
+          and as we discussed my needs and her thoughts on the needs of the
+          Violin it became clear that Nina had a sympathetic approach to the
+          repair and setup of my Violin. Se was very clear and concise with her
+          quote and very professional with our communications surrounding my
+          budget, what urgently needed attention and changes to the quote.
+        </p>
+        <p>
+          After Nina completed the agreed work on my Violin, I picked it up from
+          her workshop and I have to say that as soon as I saw it, I was
+          delighted. From the sound quality to its playability and how it looks,
+          it is a joy.
+        </p>
+        <p>
+          I am so glad I had Nina complete the works to this Violin. I will have
+          no hesitation in asking her to complete more works on my Violin when
+          required and would recommend Nina in a heartbeat. In-fact, I have a
+          second Violin that was built by my Great Grandfather that has been put
+          poorly together by someone needing major works to put it right. I
+          will, if I come into some money, be asking Nina to cast her
+          Professional, Sympathetic and Passionate eye over this Violin.
+        </p>
+        <p>
+          Thank you, Nina, for your valued work. Playing my Violin is a joy and
+          your works have been praised by a professional player who teaches for
+          the Scottish Conservatoire of Music. He has always showed a keen
+          interest in my Violin and its story." <strong> – Rob Cairns</strong>
+        </p>
+        <div class="images">
+          <img
+            (click)="enlarge($event)"
+            src="../../assets/Testimonials/Great Grandad Robert Cairns.jpg"
+            alt=""
+          />
+          <img
+            (click)="enlarge($event)"
+            src="../../assets/Testimonials/Violin Rob Cairns.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="separator"></div>
+      <div class="testimonial">
+        <p>
+          “I purchased a new violin from Nina in June 2022 and haven't regretted
+          it for one instant. The sound is warm and mellow and the instrument is
+          easy to play. Nina took the time to set it up the way that suited me
+          best. I have had numerous compliments from other players and
+          professional musicians who have tried it have all been impressed. I
+          look forward to playing it for many, many years.”
+          <strong>– Gillian Smith </strong>
+        </p>
+        <div class="images">
+          <img
+            class="landscape"
+            (click)="enlarge($event)"
+            src="../../assets/Testimonials/Violin Gillian Smith.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="separator"></div>
+      <div class="testimonial">
+        <p>
+          “I took my fiddle to Nina initially to get my fingerboard sorted out,
+          and to investigate a problem I was having with the nut (my E string
+          kept breaking). She noticed that my endpin was inching out of the
+          violin, so sorted that out for me as well.
+        </p>
+        <p>
+          I took my violin back to her later for more work, and she fitted me a
+          new bridge, sorted out my pegs and best of all a new soundpost. My
+          fiddle sounds better than ever now; her work really opened the sound
+          up and brought it a new life!
+        </p>
+        <p>
+          Every time I’ve brought my fiddle to her, Nina has been very helpful
+          and generous with information, letting me know when she found
+          something wrong with my instrument and giving me options for fixing it
+          or leaving it. I’m so happy to have found someone nearby & easy to get
+          to who I can trust with my violin! She let me use one of her violins
+          while mine was in her workshop, and it was so lovely I was worried I’d
+          hate my own when I got it back - if I was in the market for a new
+          instrument I’d be looking at hers for sure!”
+          <strong>– Madeleine Stewart</strong>
+        </p>
+        <div class="images">
+          <img
+            (click)="enlarge($event)"
+            src="../../assets/Testimonials/Violin Madeleine Stewart.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="separator"></div>
     </div>
+  </div>
+</div>
+<div (click)="close($event)" id="shower">
+  <div class="viewed">
+    <span (click)="close($event)" class="close">&times;</span>
+    <img src="" id="viewed-image" />
   </div>
 </div>
