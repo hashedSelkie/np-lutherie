@@ -7,24 +7,22 @@
   justify-content: right;
   height: 100vh;
   .contact {
-    padding: 100px 20px;
-    width: 60%;
-    h1 {
+    width: 30%;
+    h2 {
       font-family: "Beth Ellen";
       font-weight: lighter;
       text-align: center;
-      font-size: 4em;
-      margin: 10% 0 0 40%;
+      font-size: 3em;
+      margin: 45% 0;
     }
   }
   .footer-cello {
-    width: 40%;
-    height: auto;
+    width: 37%;
     img {
       height: 100%;
       width: 100%;
       object-fit: cover;
-      object-position: 5% 100%;
+      object-position: 10% 20%;
     }
   }
 }
