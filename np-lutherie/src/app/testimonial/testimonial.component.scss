@@ -1,0 +1,78 @@
+.wrapper {
+  background-color: #323131;
+  color: white;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  justify-content: left;
+  min-height: 100vh;
+  .contact {
+    padding: 100px 20px;
+    width: 50%;
+    h1 {
+      font-family: "Beth Ellen";
+      font-weight: lighter;
+      text-align: center;
+      font-size: 2.5em;
+    }
+    .content {
+      display: flex;
+      font-family: "Calibri";
+      justify-content: center;
+      .form {
+        max-width: 600px;
+        width: 100%;
+        padding: 20px;
+        #instruction {
+          font-weight: lighter;
+          font-size: 1.4em;
+          width: 85%;
+          display: block;
+          padding: 0 0 20px 0;
+        }
+        p {
+          padding: 0;
+          margin: 10px 0 3px 0;
+        }
+        input,
+        textarea {
+          background-color: #d9d9d9;
+          border-radius: 3px;
+          border-style: none;
+          width: 90%;
+        }
+        input {
+          height: 25px;
+        }
+        #button-div {
+          text-align: right;
+          width: 90%;
+          button {
+            font-size: 0.8em;
+            width: 70px;
+            height: 25px;
+            border-radius: 5px;
+            margin: 8px;
+          }
+        }
+      }
+      .contact-info {
+        padding: 20px;
+        min-width: 200px;
+        div {
+          padding: 10px;
+        }
+      }
+    }
+  }
+  .footer-cello {
+    width: 20%;
+    height: auto;
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      object-position: 5% 100%;
+    }
+  }
+}

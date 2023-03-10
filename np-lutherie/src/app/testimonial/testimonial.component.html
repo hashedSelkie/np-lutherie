@@ -1,0 +1,56 @@
+<div class="wrapper">
+  <img src="../../assets/testimonialsSide.png" alt="" />
+  <div class="contact">
+    <h1>Your testimonial</h1>
+    <div class="content">
+      <div class="form">
+        <p id="instruction">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum
+          accumsan mollis. Cras at erat aliquam, auctor eros vitae, ultrices
+          mauris. Vestibulum neque lacus, tincidunt ac orci non, ullamcorper
+          tristique sem.
+        </p>
+        <form
+          action="https://formsubmit.co/c2d69ec079198f16325149924b6cf73a"
+          method="POST"
+          enctype="multipart/form-data"
+        >
+          <p>Name</p>
+          <input type="text" name="name" placeholder="" required />
+          <p>Email</p>
+          <input
+            type="hidden"
+            name="_next"
+            value="http://localhost:4200/thank-you"
+          />
+
+          <div class="col">
+            <input
+              type="email"
+              name="email"
+              class="form-control"
+              placeholder=""
+              required
+            />
+          </div>
+          <p>Add your images</p>
+          <input type="file" name="attachment" accept="image/png, image/jpeg" />
+
+          <input type="hidden" name="_subject" value="Testimonial" />
+          <div class="form-group">
+            <p>Message</p>
+            <textarea
+              placeholder=""
+              name="message"
+              rows="10"
+              required
+            ></textarea>
+          </div>
+          <div id="button-div">
+            <button type="submit">Send</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

@@ -14,6 +14,7 @@ import { ContactComponent } from './contact/contact.component';
 import { MenuComponent } from './menu/menu.component';
 import { FooterComponent } from './footer/footer.component';
 import { ThankYouComponent } from './thank-you/thank-you.component';
+import { TestimonialComponent } from './testimonial/testimonial.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { ThankYouComponent } from './thank-you/thank-you.component';
     ContactComponent,
     MenuComponent,
     FooterComponent,
-    ThankYouComponent
+    ThankYouComponent,
+    TestimonialComponent
   ],
   imports: [
     BrowserModule,
@@ -37,6 +39,7 @@ import { ThankYouComponent } from './thank-you/thank-you.component';
       {path: 'services', component: ServicesComponent, data: { state: 'services' }},
       {path: 'contact', component: ContactComponent, data: { state: 'contact' }},
       {path: 'thank-you', component: ThankYouComponent, data: { state: 'thank-you' }},
+      {path: 'testimonials', component: TestimonialComponent, data: { state: 'testimonials' }},
       {path: '**', redirectTo: '/home', pathMatch: 'full'},
   
     ]),
