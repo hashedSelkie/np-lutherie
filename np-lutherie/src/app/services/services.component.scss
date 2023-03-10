@@ -123,6 +123,7 @@
           img {
             height: auto;
             max-width: 350px;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.404);
           }
         }
         .repair-bottom {
@@ -135,9 +136,9 @@
           }
           img {
             height: auto;
-
             min-width: 300px;
             max-width: 400px;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.404);
           }
         }
       }
@@ -162,7 +163,8 @@
 
           object-fit: cover;
           object-position: 30% 100%;
-          padding: 30px 0 0 90px;
+          margin: 30px 0 0 90px;
+          box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.404);
         }
         .commission-text {
           font-size: 1.5em;
