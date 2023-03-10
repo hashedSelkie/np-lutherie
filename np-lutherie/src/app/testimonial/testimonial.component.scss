@@ -65,14 +65,11 @@
       }
     }
   }
-  .footer-cello {
-    width: 20%;
+
+  img {
     height: auto;
-    img {
-      height: 100%;
-      width: 100%;
-      object-fit: cover;
-      object-position: 5% 100%;
-    }
+    width: 45%;
+    object-fit: cover;
+    object-position: 100% 100%;
   }
 }

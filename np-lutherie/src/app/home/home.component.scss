@@ -71,7 +71,7 @@
     }
     .testimonial {
       width: auto;
-      max-width: 1000px;
+      max-width: 950px;
       margin: auto;
       padding: 5vmin 0;
       p {
@@ -96,6 +96,17 @@
           height: 200px;
           width: auto;
         }
+      }
+    }
+    .testimonials-btn {
+      text-align: center;
+      padding: 30px;
+      a,
+      a:visited {
+        color: white;
+        font-size: 1.6em;
+        text-decoration: none;
+        font-family: "Beth Ellen";
       }
     }
   }

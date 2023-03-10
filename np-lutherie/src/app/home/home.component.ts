@@ -25,13 +25,15 @@ export class HomeComponent {
       view.style.height = "80vh";
       shower.style.paddingTop = null;
     }
-  
-  
   }
 
   close(event: any){
     let shower = document.getElementById("shower");
     shower.style.display = "none"
    console.log("x has been clicked");
+  }
+
+  toTop(){
+    window.scrollTo(0, 0);
   }
 }
