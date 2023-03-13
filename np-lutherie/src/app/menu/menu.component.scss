@@ -8,6 +8,9 @@
   z-index: 1;
   background-color: #323131;
   border-bottom: 1px black solid;
+  i {
+    display: none;
+  }
   a,
   a:visited {
     text-decoration: none;
@@ -53,6 +56,68 @@
     #instagram {
       max-width: 30px;
       height: auto;
+    }
+  }
+}
+
+@media screen and (max-width: 1007px) {
+  #desktop-menu {
+    background-color: green;
+    padding: 0;
+    ul {
+      display: none;
+    }
+    .logo {
+      display: flex;
+      #logo-img {
+        width: 50px;
+        padding: 10px;
+      }
+    }
+
+    #mobile {
+      text-align: right;
+      .fa-bars {
+        display: block;
+        padding: 15px;
+        font-size: 3em;
+      }
+    }
+  }
+  .overlayMenu {
+    display: block;
+    width: 100vw;
+    height: 0%;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: #323131;
+    overflow-x: hidden;
+    transition: 0.5s;
+    .fa-x {
+      display: block;
+      padding: 3vw;
+      font-size: 2em;
+
+      text-align: right;
+    }
+  }
+  .mobmenu {
+    position: relative;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    margin: 10px 0 50px 0;
+    font-family: "Neue Reman";
+    text-transform: uppercase;
+    font-size: 5vmax;
+    a,
+    a:visited {
+      display: block;
+      text-decoration: none;
+      color: black;
+      margin: 0 auto 5%;
     }
   }
 }

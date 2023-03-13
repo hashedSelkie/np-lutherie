@@ -9,4 +9,17 @@ export class MenuComponent {
   toTop(){
     window.scrollTo(0, 0);
   }
+
+  openMenu(event: Event){
+    document.getElementById("myNav").style.height = "100%";
+    document.body.style.overflow = "hidden";
+    
+    
+  }
+
+  closeMenu(event: Event){
+    document.getElementById("myNav").style.height = "0%";
+    document.body.style.overflow = "scroll";
+    
+  }
 }

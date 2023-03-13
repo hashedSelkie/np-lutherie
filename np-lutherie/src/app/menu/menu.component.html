@@ -46,4 +46,17 @@
       </a>
     </li>
   </ul>
+  <div id="mobile">
+    <i (click)="openMenu($event)" class="fa-solid fa-bars"></i>
+  </div>
+</div>
+<div class="overlayMenu" id="myNav">
+  <i (click)="closeMenu($event)" class="fa-solid fa-x"></i>
+  <div class="mobmenu">
+    <a routerLink="/home" (click)="closeMenu($event)">Home</a>
+    <a routerLink="/about" (click)="closeMenu($event)">About</a>
+    <a routerLink="/instruments" (click)="closeMenu($event)">Instruments</a>
+    <a routerLink="/services" (click)="closeMenu($event)">Services</a>
+    <a routerLink="/contact" (click)="closeMenu($event)">Contact</a>
+  </div>
 </div>
