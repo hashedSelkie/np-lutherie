@@ -2,6 +2,7 @@
   background-color: #272727;
   color: white;
   font-family: "Calibri";
+
   img {
     width: 60px;
   }
@@ -25,9 +26,8 @@
 
 @media screen and (max-width: 1007px) {
   .footer {
-    background-color: #272727;
-    color: white;
-    font-family: "Calibri";
+    z-index: 2;
+    position: relative;
     img {
       width: 60px;
     }

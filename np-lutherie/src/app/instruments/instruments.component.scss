@@ -95,8 +95,9 @@
   .instruments {
     #hero {
       width: 100vw;
-      height: 40vh;
-      object-position: -250px 0px;
+      min-height: 300px;
+      height: 50vw;
+      object-position: 60% 5%;
     }
     h1 {
       font-size: 1.8em;
@@ -112,7 +113,6 @@
       display: block;
       font-family: "Calibri";
       margin: auto;
-      justify-content: center;
       padding: 50px;
       font-size: 1em;
       .gallery {
@@ -122,6 +122,9 @@
         img {
           width: 20vw;
         }
+      }
+      .instrument-object-info {
+        padding: 20px;
       }
     }
   }
