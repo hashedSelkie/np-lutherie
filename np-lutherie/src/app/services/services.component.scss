@@ -190,3 +190,158 @@
     }
   }
 }
+@media screen and (max-width: 1007px) {
+  .services {
+    background-color: #323131;
+    color: white;
+
+    #hero {
+      width: 100vw;
+      height: 40vh;
+    }
+    h1 {
+      font-size: 1.8em;
+    }
+    .servicesContent {
+      .information {
+        font-size: 1em;
+        width: 85vw;
+      }
+      .set-up-wrapper {
+        padding: 30px;
+        h2 {
+          font-size: 1.8em;
+          padding: 10px;
+        }
+        .set-up {
+          display: block;
+          min-width: 0px;
+          width: 80vw;
+          margin: auto;
+          .text {
+            width: 100%;
+            font-size: 1em;
+            p {
+              margin: 20px 0;
+            }
+          }
+          img {
+            height: auto;
+            max-height: 300px;
+            width: 80vw;
+            display: block;
+            margin: 20px auto;
+          }
+        }
+        .table-wrapper {
+          padding: 10px;
+          th,
+          tr,
+          td {
+            padding: 5px;
+          }
+          table {
+            margin: auto;
+            border-color: wheat;
+            border-width: 1px;
+            border-style: solid;
+            border-collapse: collapse;
+            min-width: 0px;
+            width: 80vw;
+          }
+          th {
+            text-align: left;
+            font-size: 0.8em;
+          }
+          td,
+          th {
+            border-bottom: 1px white solid;
+          }
+          td {
+            text-align: center;
+          }
+          .instrumentTableHead {
+            text-transform: uppercase;
+            text-align: center;
+          }
+        }
+      }
+
+      .repair-wrapper {
+        padding: 30px;
+        h2 {
+          font-size: 1.8em;
+          padding: 10px;
+        }
+        .repair {
+          width: 85vw;
+          font-size: 1em;
+          display: block;
+          .repair-bottom,
+          .repair-top {
+            padding: 10px 0;
+            .repair-bottom-text,
+            .repair-top-text {
+              p {
+                margin: 20px 0;
+                width: auto;
+              }
+            }
+            img {
+              height: auto;
+              width: 100%;
+              display: block;
+            }
+            #varnish {
+              border-radius: 150px;
+            }
+            #carving {
+              display: none;
+            }
+          }
+        }
+      }
+
+      .commission-wrapper {
+        padding: 30px;
+        h2 {
+          font-size: 1.8em;
+          padding: 10px;
+        }
+        .commission {
+          display: block;
+          width: 100%;
+          margin: auto;
+          justify-content: center;
+          img {
+            height: 200px;
+            width: 80vw;
+
+            object-position: 30% 15px;
+            margin: auto;
+            display: block;
+          }
+          .commission-text {
+            font-size: 1em;
+            width: 80vw;
+            padding: 10px;
+            p {
+              margin: 0 0 20px 0;
+            }
+            table {
+              padding: 30px 0 0 0;
+              width: 100%;
+            }
+            th {
+              text-align: left;
+            }
+            th,
+            td {
+              padding: 15px 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}

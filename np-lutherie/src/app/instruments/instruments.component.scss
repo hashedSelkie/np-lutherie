@@ -16,7 +16,6 @@
     text-align: center;
     font-size: 3.5em;
   }
-
   .information {
     font-family: "Calibri";
     font-weight: lighter;
@@ -90,4 +89,49 @@
   color: #000;
   text-decoration: none;
   cursor: pointer;
+}
+
+@media screen and (max-width: 1007px) {
+  .instruments {
+    #hero {
+      width: 100vw;
+      height: 40vh;
+      object-position: -250px 0px;
+    }
+    h1 {
+      font-size: 1.8em;
+    }
+    .information {
+      font-size: 1em;
+      width: 85vw;
+    }
+    h3 {
+      margin: 10px auto;
+    }
+    .instrument-object {
+      display: block;
+      font-family: "Calibri";
+      margin: auto;
+      justify-content: center;
+      padding: 50px;
+      font-size: 1em;
+      .gallery {
+        display: grid;
+        padding: 0px;
+        height: auto;
+        img {
+          width: 20vw;
+        }
+      }
+    }
+  }
+  #shower {
+    #viewed-image {
+      height: auto;
+      max-height: 450px;
+      width: auto;
+      margin: 50px auto;
+      display: block;
+    }
+  }
 }

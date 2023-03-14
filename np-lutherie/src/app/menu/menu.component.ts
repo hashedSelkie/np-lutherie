@@ -12,14 +12,18 @@ export class MenuComponent {
 
   openMenu(event: Event){
     document.getElementById("myNav").style.height = "100%";
-    document.body.style.overflow = "hidden";
-    
-    
+    document.body.style.overflow = "hidden"; 
   }
 
   closeMenu(event: Event){
     document.getElementById("myNav").style.height = "0%";
-    document.body.style.overflow = "scroll";
-    
+    document.body.style.overflow = "scroll"; 
+  }
+
+  closeAndTop(event: Event){
+    window.scrollTo(0, 0);
+    document.getElementById("myNav").style.height = "0%";
+    document.body.style.overflow = "scroll"; 
+ 
   }
 }
