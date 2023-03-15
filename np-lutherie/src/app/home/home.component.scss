@@ -118,7 +118,9 @@
   background-color: rgb(0, 0, 0); /* Fallback color */
   background-color: rgba(0, 0, 0, 0.76); /* Black w/ opacity */
   #viewed-image {
-    width: auto;
+    max-width: 90vw;
+    max-height: 90vh;
+    height: auto;
     margin: auto;
     display: block;
   }
@@ -198,23 +200,6 @@
           }
         }
       }
-    }
-  }
-}
-
-@media screen and (max-width: 920px) {
-  #shower {
-    padding-top: 50px;
-    #viewed-image {
-      width: 85vw;
-      margin: auto;
-      display: block;
-      position: absolute;
-      top: 30%;
-      left: 7%;
-    }
-    #drag {
-      bottom: 0;
     }
   }
 }

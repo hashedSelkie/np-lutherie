@@ -22,16 +22,17 @@ console.log(num);
     
      if(type == "landscape"){
       console.log("A landscape pic has been clicked")
-      view.style.top = "30%";
+     
+      
    
      
     }
 
     else{
       console.log("A landscape pic was not clicked")
-      view.style.top = "15%";
-      view.style.left = "10%";
-      view.style.width = "80vw";
+      
+     
+     
     } 
   }
 

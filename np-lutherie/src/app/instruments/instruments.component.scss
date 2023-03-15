@@ -59,7 +59,7 @@
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
-  padding-top: 7vmin; /* Location of the box */
+  padding-top: 6vmin; /* Location of the box */
   left: 0;
   top: 0;
   right: 0;
@@ -69,9 +69,9 @@
   background-color: rgb(0, 0, 0); /* Fallback color */
   background-color: rgba(0, 0, 0, 0.76); /* Black w/ opacity */
   #viewed-image {
-    width: auto;
-    height: 80vh;
-    min-height: 300px;
+    max-width: 90vw;
+    max-height: 90vh;
+    height: auto;
     margin: auto;
     display: block;
   }
@@ -86,20 +86,6 @@
     text-align: center;
     height: 20px;
   }
-}
-.close {
-  color: #aaaaaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-  padding: 20px;
-}
-
-.close:hover,
-.close:focus {
-  color: #000;
-  text-decoration: none;
-  cursor: pointer;
 }
 
 @media screen and (max-width: 1007px) {
@@ -134,32 +120,6 @@
       .instrument-object-info {
         padding: 20px;
       }
-    }
-  }
-  #shower {
-    #viewed-image {
-      height: auto;
-      max-height: 450px;
-      width: auto;
-      margin: 50px auto;
-      display: block;
-    }
-  }
-}
-@media screen and (max-width: 920px) {
-  #shower {
-    padding-top: 50px;
-    #viewed-image {
-      min-height: 0;
-      width: 85vw;
-      margin: auto;
-      display: block;
-      position: absolute;
-      top: 30%;
-      left: 7%;
-    }
-    #drag {
-      bottom: 0;
     }
   }
 }
