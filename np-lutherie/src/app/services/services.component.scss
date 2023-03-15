@@ -192,6 +192,7 @@
 }
 @media screen and (max-width: 1007px) {
   .services {
+    padding: 0 0 50px 0;
     #hero {
       width: 100vw;
       height: 40vh;
@@ -202,18 +203,18 @@
     .servicesContent {
       .information {
         font-size: 1em;
-        width: 85vw;
+        width: 85%;
       }
       .set-up-wrapper {
-        padding: 30px;
+        padding: 0px;
         h2 {
           font-size: 1.8em;
-          padding: 10px;
+          padding: 20px;
         }
         .set-up {
           display: block;
           min-width: 0px;
-          width: 80vw;
+          width: 80%;
           .text {
             width: 100%;
             font-size: 1em;
@@ -228,30 +229,33 @@
           }
         }
         .table-wrapper {
-          padding: 10px 0;
+          padding: 10px 0 20px;
           th,
-          tr,
+          tr {
+            padding: 0px;
+          }
           td {
-            padding: 10px 0px;
+            padding: 10px 5px;
           }
           table {
             min-width: 0px;
-            width: 80vw;
+            width: 80%;
           }
           th {
             font-size: 1em;
-            padding: 10px;
+            padding: 5px;
           }
         }
       }
 
       .repair-wrapper {
+        padding: 0px;
         h2 {
           font-size: 1.8em;
-          padding: 10px;
+          padding: 20px;
         }
         .repair {
-          width: 85vw;
+          width: 85%;
           font-size: 1em;
           display: block;
           .repair-bottom,
@@ -260,7 +264,7 @@
             .repair-bottom-text,
             .repair-top-text {
               p {
-                margin: 20px 0;
+                margin: 0 0 20px 0;
                 width: auto;
               }
             }
@@ -282,18 +286,18 @@
       }
 
       .commission-wrapper {
+        padding: 0px;
         h2 {
           font-size: 1.8em;
-          padding: 10px;
+          padding: 20px;
         }
         .commission {
           display: block;
-          width: 90vw;
+          width: 90%;
           margin: auto;
           img {
             height: 200px;
             width: 60vw;
-
             object-position: 30% 0px;
             margin: 30px auto;
             display: block;
@@ -316,12 +320,11 @@
   .services {
     .servicesContent {
       .set-up-wrapper {
-        padding: 0px;
         .table-wrapper {
           th,
           tr,
           td {
-            padding: 0px 0px;
+            padding: 1px;
           }
           th {
             padding: 5px;

@@ -15,6 +15,8 @@ export class InstrumentsComponent {
     let oldsrc = view as HTMLImageElement;
     oldsrc.src = src;
     let type: string = (event.target as HTMLImageElement).className;
+    document.body.style.overflow = "hidden"; 
+   
 
     if(type == "landscape"){
       console.log("A landscape pic has been clicked")
@@ -32,6 +34,7 @@ export class InstrumentsComponent {
     let shower = document.getElementById("shower");
     shower.style.display = "none"
    console.log("x has been clicked");
+   document.body.style.overflow = "scroll"; 
   }
  
 }
