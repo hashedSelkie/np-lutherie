@@ -110,13 +110,14 @@
       margin: 10px auto;
     }
     .instrument-object {
-      display: block;
+      display: flex;
       font-size: 1em;
       .gallery {
-        padding: 0px;
-        height: auto;
+        padding: 20px;
+        height: 100%;
+        grid-template-columns: auto auto;
         img {
-          width: 20vw;
+          width: 15vw;
         }
       }
       .instrument-object-info {
