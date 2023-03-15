@@ -117,27 +117,28 @@
   overflow: auto; /* Enable scroll if needed */
   background-color: rgb(0, 0, 0); /* Fallback color */
   background-color: rgba(0, 0, 0, 0.76); /* Black w/ opacity */
-  #viewed-image {
-    max-width: 90vw;
-    max-height: 90vh;
-    height: auto;
-    margin: auto;
-    display: block;
-  }
-  p {
-    color: white;
-    font-family: "Calibri";
-    background-color: black;
-    position: fixed;
-    left: 0;
-    right: 0;
-    text-align: center;
-  }
-  #click-close {
-    top: 0;
-  }
-  #drag {
-    display: none;
+  .viewed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    #viewed-image {
+      max-width: 90vw;
+      max-height: 90vh;
+      height: auto;
+      margin: auto;
+      display: block;
+    }
+    p {
+      color: white;
+      font-family: "Calibri";
+      background-color: black;
+      position: fixed;
+      left: 0;
+      right: 0;
+      text-align: center;
+      top: 0;
+    }
   }
 }
 
