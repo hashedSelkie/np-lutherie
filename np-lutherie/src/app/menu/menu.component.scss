@@ -58,6 +58,17 @@
     }
   }
 }
+.overlayMenu {
+  .mobmenu {
+    a,
+    a:visited {
+      img {
+        width: 0%;
+        filter: brightness(70%);
+      }
+    }
+  }
+}
 
 @media screen and (max-width: 1007px) {
   #desktop-menu {
@@ -96,7 +107,7 @@
     top: 0;
     background-color: #323131;
     overflow-x: hidden;
-    overflow-y: hidden;
+    overflow-y: overlay;
     transition: 0.5s;
     .fa-x {
       display: block;
@@ -105,22 +116,39 @@
       text-align: right;
       color: rgba(255, 255, 255, 0.733);
     }
-  }
-  .mobmenu {
-    position: relative;
-    top: 0;
-    width: 100%;
-    height: 80%;
-    text-align: center;
-    font-family: "Calibri";
-    text-transform: uppercase;
-    font-size: 5vmax;
-    a,
-    a:visited {
-      display: block;
-      text-decoration: none;
-      color: rgba(255, 255, 255, 0.733);
-      margin: 5vh auto 10vh auto;
+    .mobmenu {
+      position: relative;
+      top: 0;
+      width: 100%;
+      height: auto;
+      text-align: center;
+      font-family: "Calibri";
+      text-transform: uppercase;
+      font-size: 5vmax;
+      a,
+      a:visited {
+        display: block;
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.733);
+        margin: 0 auto 7vh auto;
+        img {
+          min-width: 50px;
+          width: 7%;
+          filter: brightness(70%);
+        }
+      }
     }
   }
+}
+
+.overlayMenu::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+.overlayMenu::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0);
+}
+
+.overlayMenu::-webkit-scrollbar-thumb {
+  background-color: rgb(70, 70, 70);
 }
