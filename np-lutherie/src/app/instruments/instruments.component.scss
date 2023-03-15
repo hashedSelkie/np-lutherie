@@ -138,3 +138,39 @@
     }
   }
 }
+
+@media screen and (max-width: 350px) {
+  .instruments {
+    h3 {
+      margin: 10px auto;
+    }
+    .instrument-object {
+      display: block;
+      font-family: "Calibri";
+      margin: auto;
+      padding: 40px 0px;
+      font-size: 1em;
+      width: 80vw;
+      .gallery {
+        display: grid;
+        padding: 0px;
+        height: auto;
+        img {
+          width: 20vw;
+        }
+      }
+      .instrument-object-info {
+        padding: 20px;
+      }
+    }
+  }
+  #shower {
+    #viewed-image {
+      height: auto;
+      max-height: 450px;
+      width: auto;
+      margin: 50px auto;
+      display: block;
+    }
+  }
+}
