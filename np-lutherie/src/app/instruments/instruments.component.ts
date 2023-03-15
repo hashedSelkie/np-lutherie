@@ -20,13 +20,13 @@ export class InstrumentsComponent {
 
     if(type == "landscape"){
       console.log("A landscape pic has been clicked")
-      view.style.height = "45vh";
-      shower.style.paddingTop = "20vmin";
+      view.style.top = "30%";
     }
     else{
       console.log("A landscape pic was not clicked")
-      view.style.height = "80vh";
-      shower.style.paddingTop = null;
+      view.style.top = "15%";
+      view.style.left = "10%";
+      view.style.width = "80vw";
     }
   }
 

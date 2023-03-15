@@ -15,17 +15,24 @@ export class HomeComponent {
     let oldsrc = view as HTMLImageElement;
     oldsrc.src = src;
     document.body.style.overflow = "hidden"; 
+    let drag = document.getElementById("drag");
+    let num  = (event.target as HTMLImageElement).height;
+
+console.log(num);
     
-    if(type == "landscape"){
+     if(type == "landscape"){
       console.log("A landscape pic has been clicked")
-      view.style.height = "45vh";
-      shower.style.paddingTop = "20vmin";
+      view.style.top = "30%";
+   
+     
     }
+
     else{
       console.log("A landscape pic was not clicked")
-      view.style.height = "80vh";
-      shower.style.paddingTop = null;
-    }
+      view.style.top = "15%";
+      view.style.left = "10%";
+      view.style.width = "80vw";
+    } 
   }
 
   close(event: any){
