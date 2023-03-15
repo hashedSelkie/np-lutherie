@@ -62,7 +62,6 @@
 @media screen and (max-width: 1007px) {
   #desktop-menu {
     padding: 0;
-
     ul {
       display: none;
     }
@@ -89,7 +88,7 @@
 
   .overlayMenu {
     display: block;
-    width: 100vw;
+    width: 100%;
     height: 0%;
     position: fixed;
     z-index: 1;
