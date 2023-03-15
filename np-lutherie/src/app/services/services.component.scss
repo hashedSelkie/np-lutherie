@@ -154,36 +154,37 @@
       }
       .commission {
         display: flex;
-        width: 100%;
+        width: 80%;
         margin: auto;
         justify-content: center;
         img {
           height: 700px;
           width: 450px;
-
           object-fit: cover;
           object-position: 30% 100%;
-          margin: 30px 0 0 90px;
+          margin: 30px auto;
           box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.404);
+          display: block;
         }
         .commission-text {
           font-size: 1.5em;
           font-weight: lighter;
           width: 35%;
           padding: 20px;
+          margin: auto;
           p {
             margin: 0 0 20px 0;
           }
           table {
             padding: 30px 0 0 0;
-            width: 100%;
+            width: auto;
           }
           th {
             text-align: left;
           }
           th,
           td {
-            padding: 15px 0;
+            padding: 20px;
           }
         }
       }
@@ -228,7 +229,7 @@
           }
         }
         .table-wrapper {
-          padding: 10px 0 20px;
+          padding: 10px 0 50px;
           th,
           tr {
             padding: 0px;
@@ -306,7 +307,6 @@
             width: 80vw;
             padding: 10px;
             table {
-              width: 90%;
               margin: auto;
             }
           }

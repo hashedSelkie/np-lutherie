@@ -107,12 +107,11 @@
       }
     }
     .footer-cello {
-      width: 100vw;
+      width: 100%;
       position: absolute;
       z-index: 1;
       bottom: 0;
       img {
-        min-width: 100vw;
         object-position: 100% 100%;
       }
       .mobileCello {
