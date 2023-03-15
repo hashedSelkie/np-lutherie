@@ -17,13 +17,13 @@ export class MenuComponent {
 
   closeMenu(event: Event){
     document.getElementById("myNav").style.height = "0%";
-    document.body.style.overflow = "scroll"; 
+    document.body.style.overflow = "auto"; 
   }
 
   closeAndTop(event: Event){
     window.scrollTo(0, 0);
     document.getElementById("myNav").style.height = "0%";
-    document.body.style.overflow = "scroll"; 
+    document.body.style.overflow = "auto"; 
  
   }
 }
