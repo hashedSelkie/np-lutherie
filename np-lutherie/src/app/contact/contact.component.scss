@@ -83,7 +83,6 @@
     display: block;
     z-index: 0;
     position: relative;
-    min-height: 100vh;
     .contact {
       width: 85vw;
       margin: auto;
@@ -107,18 +106,13 @@
         }
       }
     }
-    z-index: 0;
-    position: relative;
     .footer-cello {
       width: 100vw;
       position: absolute;
       z-index: 1;
       bottom: 0;
       img {
-        height: 100%;
-        width: 100%;
         min-width: 100vw;
-        object-fit: cover;
         object-position: 100% 100%;
       }
       .mobileCello {

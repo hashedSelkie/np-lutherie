@@ -29,90 +29,31 @@
 }
 @media screen and (max-width: 1007px) {
   .wrapper {
-    background-color: #323131;
-    color: white;
-    display: flex;
-    padding: 0;
-    margin: 0;
-    justify-content: right;
-    height: 100vh;
     .contact {
       width: 50%;
       h2 {
-        font-family: "Beth Ellen";
-        font-weight: lighter;
-        text-align: center;
         font-size: 3em;
         margin: 40% 0;
-      }
-    }
-    .footer-cello {
-      width: 37%;
-      img {
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-        object-position: 10% 20%;
       }
     }
   }
 }
 @media screen and (max-width: 600px) {
   .wrapper {
-    background-color: #323131;
-    color: white;
-    display: flex;
-    padding: 0;
-    margin: 0;
-    justify-content: right;
-    height: 100vh;
     .contact {
-      width: 50%;
       h2 {
-        font-family: "Beth Ellen";
-        font-weight: lighter;
-        text-align: center;
         font-size: 2.2em;
         margin: 50% 0;
-      }
-    }
-    .footer-cello {
-      width: 37%;
-      img {
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-        object-position: 10% 20%;
       }
     }
   }
 }
 @media screen and (max-width: 400px) {
   .wrapper {
-    background-color: #323131;
-    color: white;
-    display: flex;
-    padding: 0;
-    margin: 0;
-    justify-content: right;
-    height: 100vh;
     .contact {
-      width: 50%;
       h2 {
-        font-family: "Beth Ellen";
-        font-weight: lighter;
-        text-align: center;
         font-size: 1.5em;
         margin: 100% 0;
-      }
-    }
-    .footer-cello {
-      width: 37%;
-      img {
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-        object-position: 10% 20%;
       }
     }
   }
