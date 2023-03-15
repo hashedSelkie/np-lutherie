@@ -6,7 +6,7 @@
     height: 50vh;
     min-height: 300px;
     object-fit: cover;
-    object-position: 100% 10%;
+    object-position: 100%;
     border-bottom: 1px black solid;
     background-color: rgb(66, 66, 66);
   }
@@ -132,6 +132,22 @@
       width: auto;
       margin: 50px auto;
       display: block;
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .instruments {
+    .instrument-object {
+      display: block;
+      .gallery {
+        width: 80%;
+        grid-template-columns: auto auto auto;
+        margin: auto;
+        img {
+          width: 20vw;
+        }
+      }
     }
   }
 }

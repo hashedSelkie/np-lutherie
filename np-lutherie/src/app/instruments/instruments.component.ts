@@ -34,7 +34,7 @@ export class InstrumentsComponent {
     let shower = document.getElementById("shower");
     shower.style.display = "none"
    console.log("x has been clicked");
-   document.body.style.overflow = "auto"; 
+   document.body.style.overflow = "overlay"; 
   }
  
 }
