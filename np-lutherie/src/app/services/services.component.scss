@@ -154,22 +154,24 @@
       }
       .commission {
         display: flex;
-        width: 70%;
+        width: 80%;
+        max-width: 1000px;
         margin: auto;
         justify-content: center;
         img {
           height: 700px;
-          width: 450px;
+          max-width: 450px;
+          width: 40%;
           object-fit: cover;
           object-position: 30% 100%;
-          margin: 30px auto;
+          margin: 30px;
           box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.404);
           display: block;
         }
         .commission-text {
           font-size: 1.5em;
           font-weight: lighter;
-          width: 35%;
+          width: auto;
           padding: 20px;
           margin: auto;
           p {
