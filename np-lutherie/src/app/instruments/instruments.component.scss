@@ -10,6 +10,21 @@
     border-bottom: 1px black solid;
     background-color: rgb(66, 66, 66);
   }
+  .credit {
+    display: flex;
+    justify-content: right;
+    padding: 0 10px;
+    .credit-text {
+      font-family: "Calibri";
+      margin: 0;
+      padding: 5px;
+      font-size: 0.8em;
+    }
+    .credit-link {
+      width: 15px;
+      padding: 5px;
+    }
+  }
   h1 {
     font-family: "Beth Ellen";
     font-weight: lighter;
@@ -134,7 +149,6 @@
     .instrument-object {
       display: block;
       .gallery {
-        width: 80%;
         grid-template-columns: auto auto auto;
         margin: auto;
         img {

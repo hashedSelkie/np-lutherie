@@ -10,6 +10,21 @@
     border-bottom: 1px black solid;
     background-color: rgb(66, 66, 66);
   }
+  .credit {
+    display: flex;
+    justify-content: right;
+    padding: 0 10px;
+    .credit-text {
+      font-family: "Calibri";
+      margin: 0;
+      padding: 5px;
+      font-size: 0.8em;
+    }
+    .credit-link {
+      width: 15px;
+      padding: 5px;
+    }
+  }
   h1 {
     font-family: "Beth Ellen";
     font-weight: lighter;
@@ -139,6 +154,17 @@
             min-width: 300px;
             max-width: 400px;
             box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.404);
+          }
+          .credit {
+            .credit-text {
+              font-size: 0.7em;
+            }
+            .credit-link {
+              box-shadow: none;
+              height: auto;
+              min-width: 0px;
+              min-height: 0px;
+            }
           }
         }
       }
@@ -275,6 +301,9 @@
               border-radius: 50%;
             }
             #carving {
+              display: none;
+            }
+            .credit {
               display: none;
             }
           }

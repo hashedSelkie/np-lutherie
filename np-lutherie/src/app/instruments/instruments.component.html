@@ -2,8 +2,17 @@
   <img
     id="hero"
     src="../../assets/Hero/instrumentsHero.jpg"
-    alt="shaped block"
+    alt="Close up of violin turning pegs"
   />
+  <div class="credit">
+    <p class="credit-text">Photo by Nicky Murray</p>
+    <a href="https://www.instagram.com/nickymurrayphotography/">
+      <img
+        class="credit-link"
+        src="../../assets/instagram-svgrepo-com.svg"
+        alt=""
+    /></a>
+  </div>
   <h1>Instruments</h1>
   <div class="instrumentsContent">
     <div class="information">
@@ -25,17 +34,17 @@
         <img
           (click)="enlarge($event)"
           src="../../assets/Lilith/cello front.jpg"
-          alt=""
+          alt="cello leaning on a brick wall facing forward"
         />
         <img
           (click)="enlarge($event)"
           src="../../assets/Lilith/Scroll detail.jpg"
-          alt=""
+          alt="detail of cello head"
         />
         <img
           (click)="enlarge($event)"
           src="../../assets/Lilith/cello back.jpg"
-          alt=""
+          alt="cello leaning on a brick wall facing backward"
         />
       </div>
       <div class="instrument-object-info">
@@ -51,130 +60,154 @@
       </div>
     </div>
     <div class="separator"></div>
-    <div class="instrument-object">
-      <div class="gallery">
-        <img
-          (click)="enlarge($event)"
-          src="../../assets/Violin1/DSCF0301.jpg"
-          alt=""
-        />
-        <img
-          (click)="enlarge($event)"
-          src="../../assets/Violin1/DSCF0302.jpg"
-          alt=""
-        />
-        <img
-          class="landscape"
-          (click)="enlarge($event)"
-          src="../../assets/Violin1/DSCF0293.jpg"
-          alt=""
-        />
-        <img
-          class="landscape"
-          (click)="enlarge($event)"
-          src="../../assets/Violin1/DSCF0295.jpg"
-          alt=""
-        />
+    <div>
+      <div class="instrument-object">
+        <div class="gallery">
+          <img
+            (click)="enlarge($event)"
+            src="../../assets/Violin1/DSCF0301.jpg"
+            alt="front of violin"
+          />
+          <img
+            (click)="enlarge($event)"
+            src="../../assets/Violin1/DSCF0302.jpg"
+            alt="back of violin"
+          />
+          <img
+            class="landscape"
+            (click)="enlarge($event)"
+            src="../../assets/Violin1/DSCF0293.jpg"
+            alt="violin head from the side"
+          />
+          <img
+            class="landscape"
+            (click)="enlarge($event)"
+            src="../../assets/Violin1/DSCF0295.jpg"
+            alt="violing lying down with focus on the bridge"
+          />
+        </div>
+
+        <div class="instrument-object-info">
+          <h3>Violin</h3>
+          <p class="sale">For sale at Tim Wright Fine Violins in Edinburgh</p>
+          <p>Based on "The Messiah" Antonio Stradivarius violin</p>
+          <ul>
+            <li>Alpine spruce front</li>
+            <li>Plain maple back, side and neck</li>
+            <li>Ebony fittings</li>
+          </ul>
+        </div>
       </div>
-      <div class="instrument-object-info">
-        <h3>Violin</h3>
-        <p class="sale">For sale at Tim Wright Fine Violins in Edinburgh</p>
-        <p>Based on "The Messiah" Antonio Stradivarius violin</p>
-        <ul>
-          <li>Alpine spruce front</li>
-          <li>Plain maple back, side and neck</li>
-          <li>Ebony fittings</li>
-        </ul>
+      <div class="credit">
+        <p class="credit-text">Photos by Nicky Murray</p>
+        <a href="https://www.instagram.com/nickymurrayphotography/">
+          <img
+            class="credit-link"
+            src="../../assets/instagram-svgrepo-com.svg"
+            alt=""
+        /></a>
       </div>
-    </div>
-    <div class="separator"></div>
-    <div class="instrument-object">
-      <div class="gallery">
-        <img
-          (click)="enlarge($event)"
-          src="../../assets/Violin2/IMG_4651.JPG"
-          alt=""
-        />
-        <img
-          (click)="enlarge($event)"
-          src="../../assets/Violin2/IMG_4653.JPG"
-          alt=""
-        />
-        <img
-          (click)="enlarge($event)"
-          src="../../assets/Violin2/IMG_4658.JPG"
-          alt=""
-        />
-        <img
-          (click)="enlarge($event)"
-          src="../../assets/Violin2/IMG_4660.JPG"
-          alt=""
-        />
-        <img
-          (click)="enlarge($event)"
-          src="../../assets/Violin2/IMG_4661.JPG"
-          alt=""
-        />
+      <div class="separator"></div>
+      <div class="instrument-object">
+        <div class="gallery">
+          <img
+            (click)="enlarge($event)"
+            src="../../assets/Violin2/IMG_4651.JPG"
+            alt="front of violin"
+          />
+          <img
+            (click)="enlarge($event)"
+            src="../../assets/Violin2/IMG_4653.JPG"
+            alt="back of violin"
+          />
+          <img
+            (click)="enlarge($event)"
+            src="../../assets/Violin2/IMG_4658.JPG"
+            alt="violin head from the front"
+          />
+          <img
+            (click)="enlarge($event)"
+            src="../../assets/Violin2/IMG_4660.JPG"
+            alt="violin head from the side"
+          />
+          <img
+            (click)="enlarge($event)"
+            src="../../assets/Violin2/IMG_4661.JPG"
+            alt="violinhead from the side"
+          />
+        </div>
+        <div class="instrument-object-info">
+          <h3>Violin</h3>
+          <p class="sale">Sold!</p>
+          <p>Based on "The Messiah" Antonio Stradivarius violin</p>
+          <ul>
+            <li>Alpine spruce front</li>
+            <li>Flamed maple back, sides and neck</li>
+            <li>Poplar back</li>
+            <li>Ebony fittings</li>
+          </ul>
+        </div>
       </div>
-      <div class="instrument-object-info">
-        <h3>Violin</h3>
-        <p class="sale">Sold!</p>
-        <p>Based on "The Messiah" Antonio Stradivarius violin</p>
-        <ul>
-          <li>Alpine spruce front</li>
-          <li>Flamed maple back, sides and neck</li>
-          <li>Poplar back</li>
-          <li>Ebony fittings</li>
-        </ul>
+
+      <div class="separator"></div>
+      <div class="instrument-object">
+        <div class="gallery">
+          <img
+            (click)="enlarge($event)"
+            src="../../assets/Cain/DSCF0280.jpg"
+            alt="front of violin"
+          />
+          <img
+            (click)="enlarge($event)"
+            src="../../assets/Cain/DSCF0281.jpg"
+            alt="back of violin"
+          />
+          <img
+            class="landscape"
+            (click)="enlarge($event)"
+            src="../../assets/Cain/DSCF0262.jpg"
+            alt="violing lying down with focus on the bridge"
+          />
+          <img
+            class="landscape"
+            (click)="enlarge($event)"
+            src="../../assets/Cain/DSCF0272.jpg"
+            alt="violin head from the side"
+          />
+          <img
+            (click)="enlarge($event)"
+            src="../../assets/Cain/DSCF0273.jpg"
+            alt="front of violin head"
+          />
+        </div>
+        <div class="instrument-object-info">
+          <h3>Violin 'Cain'</h3>
+          <p class="sale">
+            For sale at Storybook Instrument Workshop in Glasgow
+          </p>
+          <p>Based on the "Kruse" Antonio Stradivarius violin</p>
+          <ul>
+            <li>Romanian spruce front</li>
+            <li>Flamed sycamore back, sides and neck</li>
+            <li>Ebony fittings</li>
+          </ul>
+        </div>
       </div>
-    </div>
-    <div class="separator"></div>
-    <div class="instrument-object">
-      <div class="gallery">
-        <img
-          (click)="enlarge($event)"
-          src="../../assets/Cain/DSCF0280.jpg"
-          alt=""
-        />
-        <img
-          (click)="enlarge($event)"
-          src="../../assets/Cain/DSCF0281.jpg"
-          alt=""
-        />
-        <img
-          class="landscape"
-          (click)="enlarge($event)"
-          src="../../assets/Cain/DSCF0262.jpg"
-          alt=""
-        />
-        <img
-          class="landscape"
-          (click)="enlarge($event)"
-          src="../../assets/Cain/DSCF0272.jpg"
-          alt=""
-        />
-        <img
-          (click)="enlarge($event)"
-          src="../../assets/Cain/DSCF0273.jpg"
-          alt=""
-        />
-      </div>
-      <div class="instrument-object-info">
-        <h3>Violin 'Cain'</h3>
-        <p class="sale">For sale at Storybook Instrument Workshop in Glasgow</p>
-        <p>Based on the "Kruse" Antonio Stradivarius violin</p>
-        <ul>
-          <li>Romanian spruce front</li>
-          <li>Flamed sycamore back, sides and neck</li>
-          <li>Ebony fittings</li>
-        </ul>
+      <div class="credit">
+        <p class="credit-text">Photos by Nicky Murray</p>
+        <a href="https://www.instagram.com/nickymurrayphotography/">
+          <img
+            class="credit-link"
+            src="../../assets/instagram-svgrepo-com.svg"
+            alt=""
+        /></a>
       </div>
     </div>
   </div>
-</div>
-<div (click)="close($event)" id="shower">
-  <div class="viewed">
-    <img src="" id="viewed-image" />
-    <p>Click anywhere to close image</p>
+  <div (click)="close($event)" id="shower">
+    <div class="viewed">
+      <img src="" id="viewed-image" />
+      <p>Click anywhere to close image</p>
+    </div>
   </div>
 </div>

@@ -45,8 +45,26 @@
       height: 100%;
       max-height: 550px;
       width: auto;
-      margin: 40px;
+      margin: 40px 40px 0 40px;
       box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.404);
+    }
+    .credit {
+      display: flex;
+      margin: 0px 40px 40px 40px;
+      justify-content: right;
+      .credit-text {
+        font-family: "Calibri";
+        margin: 0;
+        padding: 5px;
+        font-size: 0.8em;
+      }
+      .credit-link {
+        width: 15px;
+        padding: 5px;
+        box-shadow: none;
+        margin: 0;
+        height: auto;
+      }
     }
   }
   .testimonials-wrapper {
