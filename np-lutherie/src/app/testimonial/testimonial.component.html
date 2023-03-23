@@ -32,10 +32,14 @@
               required
             />
           </div>
-          <p>Add your images</p>
-          <input type="file" name="attachment" accept="image/png, image/jpeg" />
+          <div id="add">
+            <button (click)="addImage()" type="button">Add an image</button>
+
+            <div id="added-image"></div>
+          </div>
 
           <input type="hidden" name="_subject" value="Testimonial" />
+
           <div class="form-group">
             <p>Message</p>
             <textarea
