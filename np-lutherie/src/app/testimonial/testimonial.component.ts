@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { FormBuilder } from '@angular/forms';
 
 @Component({
   selector: 'app-testimonial',
@@ -6,7 +7,6 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./testimonial.component.scss']
 })
 export class TestimonialComponent {
-
   num = 0;
 
   addImage(){
@@ -26,7 +26,6 @@ export class TestimonialComponent {
     y.innerHTML = "Remove";
     let connect = y.value;
     y.onclick = function (){
-      console.log("remove button was clicked");
       let element = document.getElementById(connect);
       element.remove()
       y.remove();
@@ -34,8 +33,5 @@ export class TestimonialComponent {
     div.appendChild(y);
   }
 
-  
-
-
-
+ 
 }
