@@ -97,10 +97,11 @@
 @media screen and (max-width: 1007px) {
   .wrapper {
     width: 100%;
+    min-height: 100vh;
     .contact {
       padding: 100px 0px;
       width: 95%;
-      margin: auto;
+
       h1 {
         font-size: 1.3em;
       }
