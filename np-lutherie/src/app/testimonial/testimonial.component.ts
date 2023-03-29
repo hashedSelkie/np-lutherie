@@ -24,6 +24,7 @@ export class TestimonialComponent {
     y.setAttribute("type", "button")
     y.setAttribute("value", "upload" + newNum)
     y.innerHTML = "Remove";
+    y.style.margin = "10px 0";
     let connect = y.value;
     y.onclick = function (){
       let element = document.getElementById(connect);
