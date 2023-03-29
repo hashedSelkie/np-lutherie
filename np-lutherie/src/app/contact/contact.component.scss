@@ -87,7 +87,7 @@
     z-index: 0;
     position: relative;
     .contact {
-      width: 85vw;
+      width: 75%;
       margin: auto;
       h1 {
         font-size: 1.8;
@@ -99,12 +99,12 @@
         justify-content: center;
         padding: 0 0 60vw;
         .form {
-          width: 80vw;
+          width: 90%;
           padding: 0px;
           margin: auto;
           #instruction {
             font-size: 1.2em;
-            width: 80vw;
+            width: 80%;
           }
         }
       }
@@ -123,6 +123,14 @@
       .desktopCello {
         display: none;
       }
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .wrapper {
+    .contact {
+      width: 85%;
     }
   }
 }
