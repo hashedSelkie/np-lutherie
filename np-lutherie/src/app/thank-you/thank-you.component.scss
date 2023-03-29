@@ -9,12 +9,18 @@
   .contact {
     width: 40%;
     max-width: 500px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
     h2 {
       font-family: "Beth Ellen";
       font-weight: lighter;
-      text-align: center;
       font-size: 3.6em;
-      margin: 30% 0;
+    }
+    p {
+      font-family: "Calibri";
+      font-size: 2em;
+      font-weight: lighter;
     }
   }
   .footer-cello {
