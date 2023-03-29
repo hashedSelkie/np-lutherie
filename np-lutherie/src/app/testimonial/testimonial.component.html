@@ -13,6 +13,7 @@
           action="https://formsubmit.co/c2d69ec079198f16325149924b6cf73a"
           method="POST"
           enctype="multipart/form-data"
+          onsubmit="document.getElementById('submit-btn').disabled = true, document.getElementById('submit-btn').innerHTML = 'Sending...' "
         >
           <p>Name</p>
           <input type="text" name="name" placeholder="" required />
@@ -50,7 +51,7 @@
             ></textarea>
           </div>
           <div id="button-div">
-            <button type="submit">Send</button>
+            <button id="submit-btn" type="submit">Send</button>
           </div>
         </form>
       </div>

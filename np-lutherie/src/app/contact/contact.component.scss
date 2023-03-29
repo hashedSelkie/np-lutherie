@@ -54,6 +54,9 @@
             border-radius: 5px;
             margin: 8px;
           }
+          button:disabled {
+            color: white;
+          }
         }
       }
       .contact-info {
