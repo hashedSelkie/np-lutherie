@@ -36,31 +36,31 @@
 @media screen and (max-width: 1007px) {
   .wrapper {
     .contact {
-      width: 50%;
+      width: 90%;
       h2 {
-        font-size: 3em;
-        margin: 40% 0;
+        font-size: 7vw;
+      }
+      p {
+        font-size: 4vw;
       }
     }
   }
 }
-@media screen and (max-width: 600px) {
+
+@media screen and (max-width: 480px) {
   .wrapper {
     .contact {
+      width: 100%;
       h2 {
-        font-size: 2.2em;
-        margin: 50% 0;
+        font-size: 2em;
+      }
+      p {
+        font-size: 1em;
+        text-align: center;
       }
     }
-  }
-}
-@media screen and (max-width: 400px) {
-  .wrapper {
-    .contact {
-      h2 {
-        font-size: 1.5em;
-        margin: 100% 0;
-      }
+    .footer-cello {
+      display: none;
     }
   }
 }
