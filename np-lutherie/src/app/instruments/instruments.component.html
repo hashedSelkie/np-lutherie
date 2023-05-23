@@ -32,6 +32,109 @@
     <div class="instrument-object">
       <div class="gallery">
         <img
+          class="taller-image"
+          (click)="enlarge($event)"
+          src="../../assets/Abel/1 front.JPG"
+          alt="front of violin"
+        />
+        <img
+          class="taller-image"
+          (click)="enlarge($event)"
+          src="../../assets/Abel/2 Back.JPG"
+          alt="back of violin"
+        />
+        <img
+          class="taller-image"
+          (click)="enlarge($event)"
+          src="../../assets/Abel/3 Side.JPG"
+          alt="side of violin"
+        />
+        <img
+          class="taller-image"
+          (click)="enlarge($event)"
+          src="../../assets/Abel/4 Scroll close up.JPG"
+          alt="close up of violin scroll"
+        />
+
+        <img
+          class="taller-image"
+          (click)="enlarge($event)"
+          src="../../assets/Abel/11 f-hole close up.JPG"
+          alt="close up of violin"
+        />
+        <img
+          class="landscape"
+          (click)="enlarge($event)"
+          src="../../assets/Abel/6 Scroll detail.JPG"
+          alt="detail of violin scroll"
+        />
+      </div>
+      <div class="instrument-object-info">
+        <h3>Violin 'Abel'</h3>
+        <p class="sale">For sale at Storybook Instrument Workshop in Glasgow</p>
+        <p>Based on the "Kruse" Antonio Stradivarius violin</p>
+        <ul>
+          <li>Romanian spruce front</li>
+          <li>Flamed back, sides and neck</li>
+          <li>Ebony fingerboard and rosewood fittings</li>
+        </ul>
+      </div>
+    </div>
+    <div class="separator"></div>
+    <div class="instrument-object">
+      <div class="gallery">
+        <img
+          (click)="enlarge($event)"
+          src="../../assets/Cain/DSCF0280.jpg"
+          alt="front of violin"
+        />
+        <img
+          (click)="enlarge($event)"
+          src="../../assets/Cain/DSCF0281.jpg"
+          alt="back of violin"
+        />
+        <img
+          class="landscape"
+          (click)="enlarge($event)"
+          src="../../assets/Cain/DSCF0262.jpg"
+          alt="violing lying down with focus on the bridge"
+        />
+        <img
+          class="landscape"
+          (click)="enlarge($event)"
+          src="../../assets/Cain/DSCF0272.jpg"
+          alt="violin head from the side"
+        />
+        <img
+          (click)="enlarge($event)"
+          src="../../assets/Cain/DSCF0273.jpg"
+          alt="front of violin head"
+        />
+      </div>
+      <div class="instrument-object-info">
+        <h3>Violin 'Cain'</h3>
+        <p class="sale">For sale at Storybook Instrument Workshop in Glasgow</p>
+        <p>Based on the "Kruse" Antonio Stradivarius violin</p>
+        <ul>
+          <li>Romanian spruce front</li>
+          <li>Flamed sycamore back, sides and neck</li>
+          <li>Ebony fittings</li>
+        </ul>
+      </div>
+    </div>
+    <div class="credit">
+      <p class="credit-text">Photos by Nicky Murray</p>
+      <a href="https://www.instagram.com/nickymurrayphotography/">
+        <img
+          class="credit-link"
+          src="../../assets/instagram-svgrepo-com.svg"
+          alt=""
+      /></a>
+    </div>
+    <div class="separator"></div>
+    <div class="instrument-object">
+      <div class="gallery">
+        <img
           (click)="enlarge($event)"
           src="../../assets/Lilith/cello front.jpg"
           alt="cello leaning on a brick wall facing forward"
@@ -143,64 +246,10 @@
           <ul>
             <li>Alpine spruce front</li>
             <li>Flamed maple back, sides and neck</li>
-            <li>Poplar back</li>
-            <li>Ebony fittings</li>
-          </ul>
-        </div>
-      </div>
 
-      <div class="separator"></div>
-      <div class="instrument-object">
-        <div class="gallery">
-          <img
-            (click)="enlarge($event)"
-            src="../../assets/Cain/DSCF0280.jpg"
-            alt="front of violin"
-          />
-          <img
-            (click)="enlarge($event)"
-            src="../../assets/Cain/DSCF0281.jpg"
-            alt="back of violin"
-          />
-          <img
-            class="landscape"
-            (click)="enlarge($event)"
-            src="../../assets/Cain/DSCF0262.jpg"
-            alt="violing lying down with focus on the bridge"
-          />
-          <img
-            class="landscape"
-            (click)="enlarge($event)"
-            src="../../assets/Cain/DSCF0272.jpg"
-            alt="violin head from the side"
-          />
-          <img
-            (click)="enlarge($event)"
-            src="../../assets/Cain/DSCF0273.jpg"
-            alt="front of violin head"
-          />
-        </div>
-        <div class="instrument-object-info">
-          <h3>Violin 'Cain'</h3>
-          <p class="sale">
-            For sale at Storybook Instrument Workshop in Glasgow
-          </p>
-          <p>Based on the "Kruse" Antonio Stradivarius violin</p>
-          <ul>
-            <li>Romanian spruce front</li>
-            <li>Flamed sycamore back, sides and neck</li>
             <li>Ebony fittings</li>
           </ul>
         </div>
-      </div>
-      <div class="credit">
-        <p class="credit-text">Photos by Nicky Murray</p>
-        <a href="https://www.instagram.com/nickymurrayphotography/">
-          <img
-            class="credit-link"
-            src="../../assets/instagram-svgrepo-com.svg"
-            alt=""
-        /></a>
       </div>
     </div>
   </div>

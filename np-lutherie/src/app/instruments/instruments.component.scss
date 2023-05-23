@@ -64,6 +64,11 @@
         width: 120px;
         object-fit: cover;
       }
+      .taller-image {
+        width: auto;
+        height: 200px;
+        object-fit: cover;
+      }
       img:hover {
         cursor: pointer;
       }
