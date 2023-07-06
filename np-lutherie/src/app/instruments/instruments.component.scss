@@ -1,6 +1,13 @@
 .instruments {
   background-color: #323131;
   color: white;
+  a, a:visited{
+    text-decoration: none;
+    color: white;
+  }
+  a:hover{
+    text-decoration: underline;
+  }
   #hero {
     width: 100%;
     height: 50vh;
