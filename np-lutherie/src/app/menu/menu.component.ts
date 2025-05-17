@@ -51,4 +51,11 @@ export class MenuComponent {
     console.log(open);
 
   }
+
+  closeDropdown(event: Event) {
+    document.getElementById("mob-instruments-dropdown-list").style.height = "0";
+    document.getElementById("dropdown-instruments-title").style.background = "#323131";
+    document.getElementById("dropdown-instruments-title").style.margin = "0 auto 7vh auto";
+    document.getElementById("dropdown-instruments-title").style.padding = "0";
+  }
 }

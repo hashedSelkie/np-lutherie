@@ -55,17 +55,17 @@
   </div>
 </div>
 <div class="overlayMenu" id="myNav">
-  <i (click)="closeMenu($event)" class="fa-solid fa-x"></i>
+  <i (click)="closeMenu($event);closeDropdown($event)" class="fa-solid fa-x"></i>
   <div class="mobmenu">
-    <a routerLink="/home" (click)="closeAndTop($event);openDropdown($event)">Home</a>
-    <a routerLink="/about" (click)="closeAndTop($event);openDropdown($event)">About</a>
+    <a routerLink="/home" (click)="closeAndTop($event)">Home</a>
+    <a routerLink="/about" (click)="closeAndTop($event)">About</a>
     <a (click)="openDropdown($event)" id="dropdown-instruments-title">Instruments</a>
       <ul id="mob-instruments-dropdown-list">
-        <li><a routerLink="/instruments" (click)="closeAndTop($event);openDropdown($event)">Made by Me</a></li>
-        <li><a routerLink="/trade-instruments" (click)="closeAndTop($event);openDropdown($event)">Trade Instruments</a></li>
+        <li><a routerLink="/instruments" (click)="closeAndTop($event);closeDropdown($event)">Made by Me</a></li>
+        <li><a routerLink="/trade-instruments" (click)="closeAndTop($event);closeDropdown($event)">Trade Instruments</a></li>
       </ul>
-    <a routerLink="/services" (click)="closeAndTop($event);openDropdown($event)">Services</a>
-    <a routerLink="/contact" (click)="closeAndTop($event);openDropdown($event)">Contact</a>
+    <a routerLink="/services" (click)="closeAndTop($event)">Services</a>
+    <a routerLink="/contact" (click)="closeAndTop($event)">Contact</a>
     <a href="https://www.instagram.com/ninapootsluthier/">
       <img
         id="instagram"
