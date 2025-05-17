@@ -14,12 +14,12 @@ export class MenuComponent {
   openMenu(event: Event) {
     var desktop = document.getElementById("myNav").style.height != "100%";
     document.getElementById("myNav").style.height = "100%";
-    if (desktop) {
-      document.body.style.overflow = "overlay";
-    } else {
-      document.body.style.overflow = "hidden";
-    }
-
+    // if (desktop) {
+    //   document.body.style.overflow = "overlay";
+    // } else {
+    //   document.body.style.overflow = "hidden";
+    // }
+    document.body.style.overflow = "hidden";
   }
 
   closeMenu(event: Event) {
