@@ -1,0 +1,204 @@
+.instruments {
+  background-color: #323131;
+  color: white;
+  a, a:visited{
+    text-decoration: none;
+    color: white;
+  }
+  a:hover{
+    text-decoration: underline;
+  }
+  #hero {
+    width: 100%;
+    height: 50vh;
+    min-height: 300px;
+    object-fit: cover;
+    object-position: 100%;
+    border-bottom: 1px black solid;
+    background-color: rgb(66, 66, 66);
+  }
+  .credit {
+    display: flex;
+    justify-content: right;
+    padding: 0 10px;
+    .credit-text {
+      font-family: "Calibri";
+      margin: 0;
+      padding: 5px;
+      font-size: 0.8em;
+    }
+    .credit-link {
+      width: 15px;
+      padding: 5px;
+    }
+  }
+  h1 {
+    font-family: "Beth Ellen";
+    font-weight: lighter;
+    text-align: center;
+    font-size: 3.5em;
+  }
+  .information {
+    font-family: "Calibri";
+    font-weight: lighter;
+    font-size: 1.5em;
+    max-width: 750px;
+    display: block;
+    margin: auto;
+    padding: 0 0 50px;
+  }
+  .separator {
+    width: 100%;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.24);
+  }
+  .instrument-object {
+    display: flex;
+    font-family: "Calibri";
+    margin: auto;
+    justify-content: center;
+    padding: 50px;
+    width: 90%;
+    .sale {
+      font-weight: bold;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      gap: 10px;
+      padding-right: 70px;
+      //width: 50%;
+      img {
+        height: auto;
+        width: 120px;
+        object-fit: cover;
+      }
+      .taller-image {
+        width: auto;
+        height: 200px;
+        object-fit: cover;
+      }
+      img:hover {
+        cursor: pointer;
+      }
+    }
+    .instrument-object-info{
+       width: 50%;
+       p{
+        width: 100%;
+       }
+    }
+  }
+}
+#shower {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 6vmin; /* Location of the box */
+  left: 0;
+  top: 0;
+  right: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.76); /* Black w/ opacity */
+  .viewed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    #viewed-image {
+      max-width: 90vw;
+      max-height: 90vh;
+      height: auto;
+      margin: auto;
+      display: block;
+    }
+    p {
+      color: white;
+      font-family: "Calibri";
+      background-color: black;
+      position: fixed;
+      left: 0;
+      right: 0;
+      text-align: center;
+      top: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 1007px) {
+  .instruments {
+    #hero {
+      width: 100%;
+      min-height: 300px;
+      height: 50vw;
+      object-position: 60% 5%;
+    }
+    h1 {
+      font-size: 1.8em;
+    }
+    .information {
+      font-size: 1em;
+      width: 85vw;
+    }
+    h3 {
+      margin: 10px auto;
+    }
+    .instrument-object {
+      display: flex;
+      font-size: 1em;
+      .gallery {
+        padding: 20px;
+        height: 100%;
+        grid-template-columns: auto auto;
+        img {
+          width: 15vw;
+        }
+        .taller-image {
+          height: 40vw;
+        }
+      }
+      .instrument-object-info {
+        padding: 20px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .instruments {
+    .instrument-object {
+        width: 100%;
+      display: block;
+      padding: 0;
+      .gallery {
+        grid-template-columns: auto auto auto;
+        margin: auto;
+        width: fit-content;
+        img {
+          width: 20vw;
+        }
+      }
+    .instrument-object-info{
+       width: 75%;
+       margin: auto;
+       p{
+        width: 100%;
+       }
+    }
+    }
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .instruments {
+    .instrument-object {
+      margin: auto;
+      padding: 40px 0px;
+      font-size: 1em;
+      width: 90vw;
+    }
+  }
+}

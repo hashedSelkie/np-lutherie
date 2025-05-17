@@ -21,10 +21,14 @@
         About</a
       >
     </li>
-    <li>
-      <a routerLink="/instruments" (click)="toTop()" routerLinkActive="on-page">
+    <li id="instruments-dropdown-title">
+      <a  [ngClass]="{'on-page': child1RLA.isActive || child2RLA.isActive}">
         Instruments</a
       >
+      <ul id="instruments-dropdown-list">
+        <li><a routerLink="/instruments" (click)="toTop()" #child1RLA="routerLinkActive" routerLinkActive="on-page-dropdown">Made by Me</a></li>
+        <li><a routerLink="/trade-instruments" (click)="toTop()" #child2RLA="routerLinkActive" routerLinkActive="on-page-dropdown">Trade Instruments</a></li>
+      </ul>
     </li>
     <li>
       <a routerLink="/services" (click)="toTop()" routerLinkActive="on-page">
@@ -53,11 +57,15 @@
 <div class="overlayMenu" id="myNav">
   <i (click)="closeMenu($event)" class="fa-solid fa-x"></i>
   <div class="mobmenu">
-    <a routerLink="/home" (click)="closeAndTop($event)">Home</a>
-    <a routerLink="/about" (click)="closeAndTop($event)">About</a>
-    <a routerLink="/instruments" (click)="closeAndTop($event)">Instruments</a>
-    <a routerLink="/services" (click)="closeAndTop($event)">Services</a>
-    <a routerLink="/contact" (click)="closeAndTop($event)">Contact</a>
+    <a routerLink="/home" (click)="closeAndTop($event);openDropdown($event)">Home</a>
+    <a routerLink="/about" (click)="closeAndTop($event);openDropdown($event)">About</a>
+    <a (click)="openDropdown($event)" id="dropdown-instruments-title">Instruments</a>
+      <ul id="mob-instruments-dropdown-list">
+        <li><a routerLink="/instruments" (click)="closeAndTop($event);openDropdown($event)">Made by Me</a></li>
+        <li><a routerLink="/trade-instruments" (click)="closeAndTop($event);openDropdown($event)">Trade Instruments</a></li>
+      </ul>
+    <a routerLink="/services" (click)="closeAndTop($event);openDropdown($event)">Services</a>
+    <a routerLink="/contact" (click)="closeAndTop($event);openDropdown($event)">Contact</a>
     <a href="https://www.instagram.com/ninapootsluthier/">
       <img
         id="instagram"

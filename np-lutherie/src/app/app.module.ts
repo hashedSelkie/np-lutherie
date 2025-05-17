@@ -17,6 +17,7 @@ import { MenuComponent } from './menu/menu.component';
 import { FooterComponent } from './footer/footer.component';
 import { ThankYouComponent } from './thank-you/thank-you.component';
 import { TestimonialComponent } from './testimonial/testimonial.component';
+import { TradeInstrumentsComponent } from './trade-instruments/trade-instruments.component';
 
 @NgModule({
   declarations: [
@@ -29,21 +30,23 @@ import { TestimonialComponent } from './testimonial/testimonial.component';
     MenuComponent,
     FooterComponent,
     ThankYouComponent,
-    TestimonialComponent
+    TestimonialComponent,
+    TradeInstrumentsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     RouterModule.forRoot([
-      {path: 'home', component: HomeComponent, data: { state: 'home' }},
-      {path: 'about', component: AboutComponent,  data: { state: 'about' }},
-      {path: 'instruments', component: InstrumentsComponent, data: { state: 'instruments' }},
-      {path: 'services', component: ServicesComponent, data: { state: 'services' }},
-      {path: 'contact', component: ContactComponent, data: { state: 'contact' }},
-      {path: 'thank-you', component: ThankYouComponent, data: { state: 'thank-you' }},
-      {path: 'testimonials', component: TestimonialComponent, data: { state: 'testimonials' }},
-      {path: '**', redirectTo: '/home', pathMatch: 'full'},
-  
+      { path: 'home', component: HomeComponent, data: { state: 'home' } },
+      { path: 'about', component: AboutComponent, data: { state: 'about' } },
+      { path: 'instruments', component: InstrumentsComponent, data: { state: 'instruments' } },
+      { path: 'services', component: ServicesComponent, data: { state: 'services' } },
+      { path: 'contact', component: ContactComponent, data: { state: 'contact' } },
+      { path: 'thank-you', component: ThankYouComponent, data: { state: 'thank-you' } },
+      { path: 'testimonials', component: TestimonialComponent, data: { state: 'testimonials' } },
+      { path: 'trade-instruments', component: TradeInstrumentsComponent, data: { state: 'testimonials' } },
+      { path: '**', redirectTo: '/home', pathMatch: 'full' },
+
     ]),
     HttpClientModule,
     AngularSvgIconModule.forRoot()

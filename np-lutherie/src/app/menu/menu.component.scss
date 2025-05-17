@@ -1,5 +1,9 @@
 @import "../../styles.scss";
 
+body{
+  overflow: overlay;
+}
+
 #desktop-menu {
   display: flex;
   width: 100%;
@@ -38,11 +42,43 @@
     right: 10px;
     font-size: 1.3em;
     text-transform: uppercase;
+    #instruments-dropdown-title{
+      margin: 0;
+      padding: 25px;
+    }
+    #instruments-dropdown-title:hover{
+        #instruments-dropdown-list{
+          display: block;
+        }
+      }
     li {
       margin: 25px;
       font-family: "Calibri";
       height: 20px;
       .on-page {
+        text-decoration-line: overline;
+        text-decoration-color: rgba(255, 255, 255, 0.486);
+      }
+      #instruments-dropdown-list{
+        display: none;
+        background: #323131;
+        font-size: 1em;
+        position: absolute;
+        top: 60px;
+        left: 222px;
+        width: fit-content;
+        text-align: center;
+        padding: 0;
+        :hover > &{
+          display: block;
+        }
+      }
+      .on-page-dropdown{
+        text-decoration-line: underline;
+        text-underline-offset: 7px;
+        text-decoration-color: rgba(255, 255, 255, 0.486);
+      }
+      .on-page-dropdown:hover{
         text-decoration-line: overline;
         text-decoration-color: rgba(255, 255, 255, 0.486);
       }
@@ -66,6 +102,9 @@
         width: 0%;
         filter: brightness(70%);
       }
+    }
+    #mob-instruments-dropdown-list{
+      display: none;
     }
   }
 }
@@ -135,6 +174,22 @@
           min-width: 50px;
           width: 7%;
           filter: brightness(70%);
+        }
+      }      
+      #mob-instruments-dropdown-list{
+        display: block;
+        height: 0;
+        background: #3f3f3f;
+        overflow: hidden;
+        font-size: 1em;
+        // width: fit-content;
+        text-align: right;
+        margin: 0;
+        li{
+          list-style: none;
+          a{
+            padding-right: 10px;
+          }
         }
       }
     }

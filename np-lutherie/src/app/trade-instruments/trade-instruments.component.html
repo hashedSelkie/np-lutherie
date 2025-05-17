@@ -1,0 +1,66 @@
+<div class="instruments">
+  <img
+    id="hero"
+    src="../../assets/Hero/tradeHero.jpg"
+    alt="Close up of violin turning pegs"
+  />
+  <!-- <div class="credit">
+    <p class="credit-text">Photo by Nicky Murray</p>
+    <a href="https://www.instagram.com/nickymurrayphotography/">
+      <img
+        class="credit-link"
+        src="../../assets/instagram-svgrepo-com.svg"
+        alt=""
+    /></a>
+  </div> -->
+  <h1>Trade Instruments</h1>
+  <div class="instrumentsContent">
+    <div class="information">
+      <p>
+        Beside repairs and restoration, making my own instruments and set-up work, 
+        I also offer other instruments for sale. 
+        Looking for an upgrade from your current instrument? 
+        I have a small stock of violins and violas for various budgets. 
+      </p>
+      <p>
+        If you would like to try one of these instruments head on over to 
+        the contact page to set up an appointment.
+      </p>
+    </div>
+    <div class="separator"></div>
+    <div class="instrument-object">
+      <div class="gallery">
+        <img class="landscape"
+        (click)="enlarge($event)"
+        src="../../assets/Hindersine/Scroll.JPG"
+        alt=""
+        />
+        <img
+        (click)="enlarge($event)"
+        src="../../assets/Hindersine/Front.JPG"
+        alt=""
+        />
+        <img
+          (click)="enlarge($event)"
+          src="../../assets/Hindersine/Back.JPG"
+          alt=""
+        />
+       
+      </div>
+      <div class="instrument-object-info">
+        <h3>Modern Hindersine Veracini Violin 4/4</h3>    
+        <p class="trade-instrument-p">A perfect violin for aspiring student violinists.</p>
+        <p class="trade-instrument-p">Looking for an upgrade from a school violin, this would be a perfect fit.</p>
+        <p class="trade-instrument-p">With a professional set up making this instrument a joy to play, taking the player through all their musical grades.</p> 
+        <p class="trade-instrument-p">Comes with a hard case, carbon fibre bow, rosin and a shoulder rest.</p>
+        <p class="trade-instrument-p">Priced at £650 for the set.</p>
+      </div>
+    </div>
+    <div class="separator"></div>
+    <div (click)="close($event)" id="shower">
+        <div class="viewed">
+        <img src="" id="viewed-image" />
+        <p>Click anywhere to close image</p>
+        </div>
+    </div>
+</div>
