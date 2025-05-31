@@ -38,6 +38,8 @@
     right: 10px;
     font-size: 1.1em;
     text-transform: uppercase;
+    height: 100%;
+    align-items: center;
     #instruments-dropdown-title{
       margin: 0;
       padding: 25px;
@@ -45,12 +47,13 @@
     #instruments-dropdown-title:hover{
         #instruments-dropdown-list{
           display: block;
+          height: fit-content;
         }
       }
     li {
       margin: 25px;
       font-family: "Goorm";
-      height: 20px;
+      height: fit-content;
       .on-page {
         text-decoration-line: overline;
         text-decoration-color: rgba(255, 255, 255, 0.486);
